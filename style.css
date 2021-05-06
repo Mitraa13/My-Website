@@ -1,0 +1,144 @@
+
+h1 {
+    color:deeppink;
+}
+body{
+    background-image: url("https://nehitha15107.github.io/Pro-C50-My-origami-website-2/main2.jpg");
+}
+
+.header{
+    /*background-color: lightpink;*/
+    border:solid white;
+    display: flex;
+    justify-content: center;
+    font-family: "Castellar";
+    font-size: 35px;
+}
+.aboutme{
+    /*background-color:lightpink;*/
+    border:solid white;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    padding: 10px;
+}
+.subheader1{
+    /*background-color:lightpink;*/
+    border:solid white;
+    display: flex;
+    justify-content: space-around;
+    font-family:"Edwardian Calligraphy ITC";
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    color: lightskyblue;
+}
+.subheader2{
+    /*background-color:lightpink;*/
+    border:solid white;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Calbiri";
+    font-size: 20px;
+    color:ivory;
+}
+.subheader3{
+    /*background-color:lightpink;*/
+    border:solid white;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Calbiri";
+    font-size: 30px;
+    color:violet;
+}
+
+.games{
+    border:solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.games:hover p{
+    opacity: 2;
+}
+
+.games img{
+    border: 2px solid white;
+    border-radius: 50px;
+}
+.game1:hover img{
+    opacity: 0.5;
+    border: 20px solid dimgrey;
+    border-radius: 3px;
+}
+.game2:hover img{
+    opacity: 0.5;
+    border: 20px solid dimgrey;
+    border-radius: 3px;
+}
+.game3:hover img{
+    opacity: 0.5;
+    border: 20px solid dimgrey;
+    border-radius: 3px;
+}
+.game4:hover img{
+    opacity: 0.5;
+    border-radius: 3px;
+    border: 20px solid dimgrey;
+}
+.game5:hover img{
+    opacity: 0.5;
+    border-radius: 3px;
+    border: 20px solid dimgrey;
+}
+.game6:hover img{
+    opacity: 0.5;
+    border-radius: 3px;
+    border: 20px solid dimgrey;
+}
+.game7:hover img{
+    opacity: 0.5;
+    border-radius: 3px;
+    border: 20px solid dimgrey;
+}
+.game8:hover img{
+    opacity: 0.5;
+    border-radius: 3px;
+    border: 20px solid dimgrey;
+}
+.game9:hover img{
+    border-radius: 3px;
+    opacity: 0.5;
+    border: 20px solid dimgrey;
+}
+.game10:hover img{
+    opacity: 0.5;
+    border-radius: 3px;
+    border: 20px solid dimgrey;
+}
+
+p,h2{
+    text-align: center;
+    font-family: "Colonna MT";
+    font-weight: bold;
+    color:white;
+    font-size: 30px;
+
+}
+
+h6{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-style: italic;
+}
+
+a:link{
+    color:darkslateblue;
+}
+a:visited{
+    color:blueviolet;
+}
