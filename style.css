@@ -7,24 +7,22 @@ body{
 }
 
 .header{
-    /*background-color: lightpink;*/
-    border:solid white;
     display: flex;
     justify-content: center;
     font-family: "Castellar";
     font-size: 35px;
 }
 .aboutme{
-    /*background-color:lightpink;*/
-    border:solid white;
+    border: solid white;
     display: flex;
     font-size: 20px;
     justify-content: space-around;
     padding: 10px;
 }
+.aboutme:hover{
+    transform: scale(1.2);
+}
 .subheader1{
-    /*background-color:lightpink;*/
-    border:solid white;
     display: flex;
     justify-content: space-around;
     font-family:"Edwardian Calligraphy ITC";
@@ -34,8 +32,6 @@ body{
     color: lightskyblue;
 }
 .subheader2{
-    /*background-color:lightpink;*/
-    border:solid white;
     display: flex;
     justify-content: space-around;
     font-family: "Calbiri";
@@ -43,8 +39,6 @@ body{
     color:ivory;
 }
 .subheader3{
-    /*background-color:lightpink;*/
-    border:solid white;
     display: flex;
     justify-content: space-around;
     font-family: "Calbiri";
@@ -53,7 +47,6 @@ body{
 }
 
 .games{
-    border:solid white;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -73,51 +66,61 @@ body{
     opacity: 0.5;
     border: 20px solid dimgrey;
     border-radius: 3px;
+    transform: scale(1.2);
 }
 .game2:hover img{
     opacity: 0.5;
     border: 20px solid dimgrey;
     border-radius: 3px;
+    transform: scale(1.2);
 }
 .game3:hover img{
     opacity: 0.5;
     border: 20px solid dimgrey;
     border-radius: 3px;
+    transform: scale(1.2);
 }
 .game4:hover img{
     opacity: 0.5;
     border-radius: 3px;
     border: 20px solid dimgrey;
+    transform: scale(1.2);
 }
 .game5:hover img{
     opacity: 0.5;
     border-radius: 3px;
     border: 20px solid dimgrey;
+    transform: scale(1.2);
 }
 .game6:hover img{
     opacity: 0.5;
     border-radius: 3px;
     border: 20px solid dimgrey;
+    transform: scale(1.2);
 }
 .game7:hover img{
     opacity: 0.5;
     border-radius: 3px;
     border: 20px solid dimgrey;
+    transform: scale(1.2);
 }
 .game8:hover img{
     opacity: 0.5;
     border-radius: 3px;
     border: 20px solid dimgrey;
+    transform: scale(1.2);
 }
 .game9:hover img{
     border-radius: 3px;
     opacity: 0.5;
     border: 20px solid dimgrey;
+    transform: scale(1.2);
 }
 .game10:hover img{
     opacity: 0.5;
     border-radius: 3px;
     border: 20px solid dimgrey;
+    transform: scale(1.2);
 }
 
 p,h2{
