@@ -1,5 +1,4 @@
 .header{
-    border:solid white;
     display: flex;
     justify-content: center;
     font-size: 35px;
@@ -9,19 +8,20 @@
 
 body{
     background-image: url("https://nehitha15107.github.io/Pro-C50-My-origami-website-2/main2.jpg");
-    /*background-repeat: no-repeat;
-    background-size: cover;*/
 }
 
 .aboutme{
+    padding: 10px;
     border: solid white;
     display: flex;
     justify-content: space-around;
     font-size: 20px;
 }
+.aboutme:hover{
+    transform: scale(1.2);
+}
 
 .subheader1{
-    border:solid white;
     display: flex;
     justify-content: space-around;
     font-family:"Copperplate";
@@ -31,7 +31,6 @@ body{
 }
 
 .subheader2{
-    border:solid white;
     display: flex;
     justify-content: space-around;
     font-family: "Arial";
@@ -40,7 +39,6 @@ body{
 }
 
 .subheader3{
-    border:solid white;
     display: flex;
     justify-content: space-around;
     font-family: "Algerian";
@@ -53,7 +51,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    border: solid white;
     padding-bottom: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -69,6 +66,7 @@ body{
     opacity: 0.5;
     border-radius: 3px;
     border: 30px solid gray;
+    transform: scale(1.2);
 }
 
 .simplegames{
@@ -76,7 +74,6 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
     text-align: center;
-    border: solid white;
     padding: 20px;
 }
 .simplegames:hover p{
@@ -89,21 +86,25 @@ body{
 .simple1:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .simple2:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .simple3:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .simple4:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 
@@ -112,7 +113,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    border: solid white;
     padding: 20px;
 }
 .Ponggames:hover p{
@@ -125,21 +125,25 @@ body{
 .Pong1:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Pong2:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Pong3:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Pong4:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 
@@ -148,7 +152,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    border: solid white;
     padding: 20px;
 }
 .Infiniterunnergames:hover p{
@@ -161,31 +164,37 @@ body{
 .Infinite1:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Infinite2:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Infinite3:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Infinite4:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Infinite5:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Infinite6:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 
@@ -194,7 +203,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    border: solid white;
     padding: 20px;
 }
 .Sling-ShotGames:hover p{
@@ -207,16 +215,19 @@ body{
 .Sling-ShotGames1:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Sling-ShotGames2:hover img{
     border: 30px solid gray;
     opacity: 0.5;
+    transform: scale(1.2);
     border-radius: 3px;
 }
 .Sling-ShotGames3:hover img{
     border: 30px solid gray;
     opacity: 0.5;
+    transform: scale(1.2);
     border-radius: 3px;
 }
 
@@ -225,7 +236,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    border: solid white;
     padding: 20px;
 }
 .multiplayergames:hover p{
@@ -238,16 +248,19 @@ body{
 .Multi1:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Multi2:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Multi3:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 
@@ -256,7 +269,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    border: solid white;
     padding: 20px;
 }
 .Others:hover p{
@@ -269,16 +281,19 @@ body{
 .Others1:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Others2:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .Others3:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 
@@ -287,7 +302,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    border: solid white;
     padding: 20px;
 }
 .pts:hover p{
@@ -300,31 +314,37 @@ body{
 .pts1:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .pts2:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .pts3:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .pts4:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .pts5:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 .pts6:hover img{
     opacity: 0.5;
     border-radius: 3px;
+    transform: scale(1.2);
     border: 30px solid gray;
 }
 
@@ -343,7 +363,6 @@ p{
     text-align: center;
     font-family: "Colonna MT";
     font-weight: bold;
-    font-style: italic;
     color:white;
     font-size: 30px;
 
@@ -352,7 +371,6 @@ h6{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-style: italic;
 }
 
 a:link{
